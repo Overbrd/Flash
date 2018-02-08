@@ -1,0 +1,727 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<!-- saved from url=(0065)http://www.adobe.com/devnet/activecontent/articles/devletter.html -->
+<HTML lang=en xml:lang="en" xmlns="http://www.w3.org/1999/xhtml"><HEAD><TITLE>Adobe - Developer Center : Preparing your website to handle the Microsoft changes to Internet Explorer</TITLE><!-- InstanceBegin template="/Templates/article.dwt" codeOutsideHTMLIsLocked="true" -->
+<META http-equiv=Content-Type content="text/html; charset=UTF-8">
+<META http-equiv=Content-Language content=en-us><!-- Template $Revision: 2.24 $ applied. --><!-- InstanceParam name="locale" type="text" value="en_us" --><!--DWT [object Object]--><LINK 
+href="/favicon.ico" type=image/x-icon rel=icon><LINK href="/favicon.ico" 
+type=image/x-icon rel="shortcut icon"><LINK id=print-css rev=stylesheet 
+media=print 
+href="Adobe%20-%20Developer%20Center%20%20Preparing%20your%20website%20to%20handle%20the%20Microsoft%20changes%20to%20Internet%20Explorer_files/print.css" 
+type=text/css charset=utf-8 rel=stylesheet><LINK id=screen-css rev=stylesheet 
+media=screen 
+href="Adobe%20-%20Developer%20Center%20%20Preparing%20your%20website%20to%20handle%20the%20Microsoft%20changes%20to%20Internet%20Explorer_files/screen.css" 
+type=text/css charset=utf-8 rel=stylesheet><LINK id=test-css rev=stylesheet 
+media=screen 
+href="Adobe%20-%20Developer%20Center%20%20Preparing%20your%20website%20to%20handle%20the%20Microsoft%20changes%20to%20Internet%20Explorer_files/features_test.css" 
+type=text/css charset=utf-8 rel=stylesheet>
+<SCRIPT 
+src="Adobe%20-%20Developer%20Center%20%20Preparing%20your%20website%20to%20handle%20the%20Microsoft%20changes%20to%20Internet%20Explorer_files/global.js" 
+type=text/javascript charset=utf-8></SCRIPT>
+
+<SCRIPT 
+src="Adobe%20-%20Developer%20Center%20%20Preparing%20your%20website%20to%20handle%20the%20Microsoft%20changes%20to%20Internet%20Explorer_files/globalnav.js" 
+type=text/javascript charset=utf-8></SCRIPT>
+
+<SCRIPT 
+src="Adobe%20-%20Developer%20Center%20%20Preparing%20your%20website%20to%20handle%20the%20Microsoft%20changes%20to%20Internet%20Explorer_files/ui.js" 
+type=text/javascript charset=utf-8></SCRIPT>
+
+<SCRIPT 
+src="Adobe%20-%20Developer%20Center%20%20Preparing%20your%20website%20to%20handle%20the%20Microsoft%20changes%20to%20Internet%20Explorer_files/util.js" 
+type=text/javascript charset=utf-8></SCRIPT>
+<!-- InstanceParam name="page_number" type="number" value="1" --><!-- InstanceParam name="page_total" type="number" value="1" --><!-- InstanceParam name="author" type="text" value="Adobe" --><!-- InstanceParam name="author2" type="text" value="" --><!-- InstanceParam name="author3" type="text" value="" --><!-- InstanceParam name="contentarea" type="text" value="Developer Center" --><!-- InstanceParam name="article_title" type="text" value="Preparing your website to handle the Microsoft changes to Internet Explorer" --><!-- InstanceParam name="file_name" type="text" value="devletter" --><!-- InstanceParam name="user_level" type="number" value="0" --><!-- InstanceParam name="printLayout" type="boolean" value="false" --><!-- InstanceParam name="rev_datecreated" type="text" value="31 March 2006" --><!-- InstanceParam name="rev_datemodified" type="text" value="29 August 2006" --><!-- InstanceParam name="ssi_header" type="boolean" value="true" --><!--DWT [object Object]-->
+<META content=Adobe name=author>
+<META content="31 March 2006" name=datecreated>
+<META content="29 August 2006" name=datemodified><!-- InstanceBeginEditable name="head" -->
+<META content=devnet name=area>
+<META content="Flash, Shockwave, Authorware" name=product>
+<META content="Craig Goodman" name=author>
+<META content="Jonathan Duran" name=author>
+<META 
+content="active content, update utilities, 906 issues, site changes, browser changes, embedded content, Active Content Update Utilities, JavaScript fix" 
+name=keywords>
+<META content="31 March 2006" name=datecreated>
+<META content="29 August 2006" name=datemodified>
+<META content=all name=level>
+<META 
+content="Preparing Your Website to Handle the Microsoft Changes to Internet Explorer" 
+name=shorttitle>
+<META 
+content="Get a straightforward, manual fix you can implement today to address the Internet Explorer changes." 
+name=blurb>
+<META content="Active Content Developer Center" name=topiccenter>
+<META content=novalue name=columntype>
+<META content="Stefan Gruenwedel" name=editor><!-- InstanceEndEditable -->
+<META content="MSHTML 6.00.6000.16441" name=GENERATOR></HEAD>
+<BODY>
+<SCRIPT type=text/javascript>
+	// <![CDATA[
+	com.adobe.htmltemplate.loadCondAssets("dropdown","pod");
+	// ]]>
+</SCRIPT>
+<!--googleoff: index--><A id=accesslink tabIndex=1 
+href="http://www.adobe.com/help/accessibility.html">Accessibility</A><!--googleon: index--> 
+<!--googleoff: index--><!--$Revision: 1.37 $-->
+<FORM class=en id=globalnav-search name=globalnav-search accept-charset=utf-8 
+action=/go/gnav_search method=get>
+<DL class=clear-after id=globalnav>
+  <DT id=adobe-logo><A href="http://www.adobe.com/">Adobe</A> </DT>
+  <DD id=user-menu>
+  <UL class="pipe menu">
+    <LI id=globalnav-cart><A class="icon-replace cart" 
+    href="http://www.adobe.com/go/gn_cart">Your Cart</A> </LI>
+    <LI><SPAN id=greeting style="DISPLAY: none">Welcome, <SPAN 
+    id=screenName>Guest</SPAN></SPAN> </LI>
+    <LI id=account><A href="http://www.adobe.com/go/gn_your_account">Your 
+    Account</A> </LI>
+    <LI id=signout style="DISPLAY: none"><A 
+    href="http://www.adobe.com/go/gn_signout">Sign Out</A> </LI>
+    <LI id=help><A href="http://www.adobe.com/go/gn_contact">Contact</A> </LI>
+    <LI id=international><A href="http://www.adobe.com/go/gn_intl">United States 
+    (Change)</A> </LI></UL></DD>
+  <DD id=site-menu>
+  <UL class="d-dropdown pipe menu compact" id=site-menu-dropdown>
+    <LI><SPAN class=menu-title><A 
+    href="http://www.adobe.com/go/gn_sol">Solutions</A></SPAN> 
+    <DL class=menu>
+      <DT>Industries 
+      <DD><A href="http://www.adobe.com/go/gntray_ind_education">Education</A> 
+      <DD><A href="http://www.adobe.com/go/gntray_ind_finance">Financial 
+      Services</A> 
+      <DD><A href="http://www.adobe.com/go/gntray_ind_govt">Government</A> 
+      <DD><A 
+      href="http://www.adobe.com/go/gntray_ind_manufacturing">Manufacturing</A> 
+      <DD><A 
+      href="http://www.adobe.com/go/gntray_ind_telecommunications">Telecommunications</A> 
+
+      <DT class=divide>Solutions 
+      <DD><A href="http://www.adobe.com/go/gntray_sol_digital_imaging">Digital 
+      Imaging</A> 
+      <DD><A href="http://www.adobe.com/go/gntray_sol_mobile">Mobile</A> 
+      <DD><A href="http://www.adobe.com/go/gntray_sol_print_publishing">Print 
+      Publishing</A> 
+      <DD><A 
+      href="http://www.adobe.com/go/gntray_sol_process_mgmt_services">Process 
+      Management Services</A> 
+      <DD><A href="http://www.adobe.com/go/gntray_sol_ria">Rich Internet 
+      Applications</A> 
+      <DD><A href="http://www.adobe.com/go/gntray_sol_elearning">Training and 
+      eLearning</A> 
+      <DD><A href="http://www.adobe.com/go/gntray_sol_video_audio">Video and 
+      Audio</A> 
+      <DD><A href="http://www.adobe.com/go/gntray_sol_web_conferencing">Web 
+      Conferencing</A> 
+      <DD><A href="http://www.adobe.com/go/gntray_sol_web_publishing">Web 
+      Publishing</A> 
+      <DT class=divide><A href="http://www.adobe.com/go/gntray_sol_more">All 
+      Industries &amp; Solutions ›</A> </DT></DL></LI>
+    <LI><SPAN class=menu-title><A 
+    href="http://www.adobe.com/go/gn_prod">Products</A></SPAN> 
+    <UL class=menu>
+      <LI><A 
+      href="http://www.adobe.com/go/gntray_prod_acrobat_connect_pro_home">Acrobat 
+      Connect</A> 
+      <LI><A 
+      href="http://www.adobe.com/go/gntray_prod_acrobat_family_home">Acrobat 
+      Family</A> 
+      <LI><A href="http://www.adobe.com/go/gntray_prod_after_effects_home">After 
+      Effects</A> 
+      <LI><A 
+      href="http://www.adobe.com/go/gntray_prod_coldfusion_home">ColdFusion</A> 
+      <LI><A 
+      href="http://www.adobe.com/go/gntray_prod_creative_suite_family_home">Creative 
+      Suite Family</A> 
+      <LI><A 
+      href="http://www.adobe.com/go/gntray_prod_dreamweaver_home">Dreamweaver</A> 
+
+      <LI><A href="http://www.adobe.com/go/gntray_prod_flash_home">Flash</A> 
+      <LI><A href="http://www.adobe.com/go/gntray_prod_flex_home">Flex</A> 
+      <LI><A 
+      href="http://www.adobe.com/go/gntray_prod_illustrator_home">Illustrator</A> 
+
+      <LI><A 
+      href="http://www.adobe.com/go/gntray_prod_indesign_home">InDesign</A> 
+      <LI><A 
+      href="http://www.adobe.com/go/gntray_prod_livecycle_home">LiveCycle</A> 
+      <LI><A 
+      href="http://www.adobe.com/go/gntray_prod_mobile_devices_home">Mobile 
+      Products</A> 
+      <LI><A 
+      href="http://www.adobe.com/go/gntray_prod_photoshop_family_home">Photoshop 
+      Family</A> 
+      <LI><A 
+      href="http://www.adobe.com/go/gntray_prod_premiere_home">Premiere</A> 
+      <LI class=divide><A 
+      href="http://www.adobe.com/go/gntray_prod_products">All Products ›</A> 
+      </LI></UL></LI>
+    <LI><SPAN class=menu-title><A 
+    href="http://www.adobe.com/go/gn_supp">Support</A></SPAN> 
+    <UL class=menu>
+      <LI><A href="http://www.adobe.com/go/gn_supp_support">Support Home</A> 
+      <LI><A href="http://www.adobe.com/go/gntray_supp_cs_home">Customer 
+      Service</A> 
+      <LI><A href="http://www.adobe.com/go/gntray_supp_kb">Knowledgebase</A> 
+      <LI><A href="http://www.adobe.com/go/gntray_supp_books">Books</A> 
+      <LI><A href="http://www.adobe.com/go/gntray_supp_train_home">Training and 
+      Certification</A> 
+      <LI><A href="http://www.adobe.com/go/gntray_supp_programs">Support 
+      Programs</A> 
+      <LI><A href="http://www.adobe.com/go/gntray_supp_forums_home">Forums</A> 
+      <LI><A 
+      href="http://www.adobe.com/go/gntray_supp_documentation">Documentation</A> 
+
+      <LI><A href="http://www.adobe.com/go/gntray_supp_updates">Updates</A> 
+      <LI class=divide><A href="http://www.adobe.com/go/gntray_supp_more">More 
+      ›</A> </LI></UL></LI>
+    <LI><SPAN class=menu-title><A 
+    href="http://www.adobe.com/go/gn_comm">Communities</A></SPAN> 
+    <DL class=menu>
+      <DT>By User 
+      <DD><A href="http://www.adobe.com/go/gntray_comm_designers">Designers</A> 
+      <DD><A href="http://www.adobe.com/go/gntray_comm_devnet">Developers</A> 
+      <DD><A href="http://www.adobe.com/go/gntray_comm_educators">Educators</A> 
+      <DD><A href="http://www.adobe.com/go/gntray_comm_partners">Partners</A> 
+      <DT class=divide>By Resource 
+      <DD><A href="http://www.adobe.com/go/gntray_comm_labs" 
+      target=mm_window>Adobe Labs</A> 
+      <DD><A href="http://www.adobe.com/go/gntray_comm_forums">Forums</A> 
+      <DD><A 
+      href="http://www.adobe.com/go/gntray_comm_exchange_home">Exchange</A> 
+      <DD><A href="http://www.adobe.com/go/gntray_comm_blogs" 
+      target=mm_window>Blogs</A> </DD></DL></LI>
+    <LI><SPAN class=menu-title><A 
+    href="http://www.adobe.com/go/gn_comp">Company</A></SPAN> 
+    <UL class=menu>
+      <LI><A href="http://www.adobe.com/go/gntray_comp_aboutadobe">About 
+      Adobe</A> 
+      <LI><A href="http://www.adobe.com/go/gntray_comp_press">Press</A> 
+      <LI><A 
+      href="http://www.adobe.com/go/gntray_comp_investor_relations">Investor 
+      Relations</A> 
+      <LI><A 
+      href="http://www.adobe.com/go/gntray_comp_community_affairs">Corporate 
+      Affairs</A> 
+      <LI><A href="http://www.adobe.com/go/gntray_comp_jobs">Jobs</A> 
+      <LI><A href="http://www.adobe.com/go/gntray_comp_showcase">Showcase</A> 
+      <LI><A href="http://www.adobe.com/go/gntray_comp_events">Events</A> 
+      <LI><A href="http://www.adobe.com/go/gntray_comp_contact_adobe">Contact 
+      Adobe</A> 
+      <LI><A href="http://www.adobe.com/go/gntray_comp_become_affiliate">Become 
+      an Affiliate</A> 
+      <LI class=divide><A 
+      href="http://www.adobe.com/go/gntray_comp_company_more">More ›</A> 
+    </LI></UL></LI>
+    <LI><SPAN class=menu-title><A 
+    href="http://www.adobe.com/go/gn_dl">Downloads</A></SPAN> 
+    <UL class=menu>
+      <LI><A href="http://www.adobe.com/go/gntray_dl_downloads">Downloads 
+      Home</A> 
+      <LI><A href="http://www.adobe.com/go/gntray_dl_downloads">Trial 
+      Downloads</A> 
+      <LI><A href="http://www.adobe.com/go/gntray_dl_updates">Updates</A> 
+      <LI><A href="http://www.adobe.com/go/gntray_dl_exchange">Exchange</A> 
+      <LI><A href="http://www.adobe.com/go/gntray_dl_get_reader">Get Adobe 
+      Reader</A> 
+      <LI><A href="http://www.adobe.com/go/gntray_dl_getflashplayer">Get Flash 
+      Player</A> 
+      <LI class=divide><A href="http://www.adobe.com/go/gntray_dl_more">More 
+      ›</A> </LI></UL></LI>
+    <LI><SPAN class=menu-title><A 
+    href="http://www.adobe.com/go/gn_store">Store</A></SPAN> 
+    <UL class=menu>
+      <LI><A href="http://www.adobe.com/go/gntray_store">Store Home</A> 
+      <LI><A href="http://www.adobe.com/go/gntray_store_software">Software</A> 
+      <LI><A href="http://www.adobe.com/go/gntray_store_fonts">Fonts</A> 
+      <LI><A href="http://www.adobe.com/go/gntray_store_books">Books</A> 
+      <LI><A href="http://www.adobe.com/go/gntray_store_programs">Support</A> 
+      <LI><A href="http://www.adobe.com/go/gntray_store_your_hist">Your 
+      Account</A> 
+      <LI><A href="http://www.adobe.com/go/gntray_store_mvlp">Volume 
+      Licensing</A> 
+      <LI class=divide><A 
+      href="http://www.adobe.com/go/gntray_store_purchase_options">Other Ways to 
+      Buy ›</A> </LI></UL></LI></UL></DD>
+  <DD id=site-search>
+  <P><INPUT type=hidden value=en_us name=loc> <INPUT id=search-input 
+  name=term><BUTTON id=search type=submit>Search</BUTTON></P></DD></DL><NOSCRIPT>
+<DIV id=globalnav-noscript>You may not have everything you need to view certain 
+sections of Adobe.com. Please see our <A 
+href="http://www.adobe.com/go/gn_sitereqs">site 
+requirements</A>.</DIV></NOSCRIPT></FORM><!--googleon: index-->
+<DIV class=L1 id=layoutLogic>
+<DIV class="columns-1-A-A pod p0 nw" id=C1>
+<DIV class=ne>
+<DIV class=se>
+<DIV class=sw>
+<DIV class=n>
+<DIV class=s>
+<DIV class=w>
+<DIV class="pod-body e" id=C1-body>
+<OL class="path menu compact" id=depthpath>
+  <LI><A href="http://www.adobe.com/">Home</A></LI>
+  <LI><A href="http://www.adobe.com/devnet/">Developer Center</A></LI>
+  <LI><A href="http://www.adobe.com/devnet/activecontent/"><STRONG>Active 
+  Content Developer Center</STRONG></A></LI></OL>
+<H1 class=macromedia>Active Content Update Article</H1>
+<H2>Preparing your website to handle the Microsoft changes to Internet 
+Explorer</H2>
+<DIV class=columns-2-aaB-aa id=article-C1><!-- InstanceBeginEditable name="AuthorPhoto" --><!-- InstanceEndEditable -->
+<H4>Adobe</H4>
+<P>&nbsp;</P>
+<UL class="link-list utility">
+  <LI><A 
+  href="http://www.adobe.com/cfusion/mmform/index.cfm?name=brc_tutorial_feedback">Send 
+  feedback</A>
+  <LI><A 
+  href="http://www.adobe.com/cfusion/resourcecenter/rc_driver.cfm?pagename=des_dev_nl">Get 
+  an e-mail update of new articles</A></LI></UL>
+<DL class=meta>
+  <DT>Created:
+  <DD>31 March 2006
+  <DT>Modified:
+  <DD>29 August 2006
+  <DT>User Level:
+  <DD>All</DD></DL></DIV>
+<DIV class=columns-2-aaB-B id=article-C2><!-- InstanceBeginEditable name="ArticleContent" -->
+<P>Many of you have heard about the <A 
+href="http://msdn.microsoft.com/ieupdate/" target=_blank>announced changes</A> 
+to Microsoft Internet Explorer. You may have questions about what's going to 
+happen to your websites that use embedded ("active") content and 
+applications—which can include Adobe Flash, Adobe Acrobat, or Shockwave files. 
+This article details the browser changes, active content workarounds, and 
+resources you will need to make your websites compatible with the updated 
+browser.</P>
+<P>This article covers the following:</P>
+<UL>
+  <LI>How the changes affect current sites 
+  <LI>What code is affected and the general fix 
+  <LI>Two sample solutions of updated content 
+  <LI>Additional resources for updating active content </LI></UL>
+<P>The <A href="http://www.adobe.com/go/2f98fbe7">Dreamweaver 8.0.2 Updater</A> 
+and <A href="http://www.adobe.com/go/7c29e252">Flash Active Content Update 
+Extension</A> include templates and code for publishing active content under the 
+new guidelines. In addition, you can find more information in the <A 
+href="http://www.adobe.com/devnet/activecontent/">Active Content Developer 
+Center</A>.</P>
+<H3>How will the browser changes affect my site?</H3>
+<P>Users will be able to view embedded content and applications in their present 
+form—until they update their Internet Explorer browsers on Windows. The browser 
+update was first released as an optional update in February 2006. After users 
+update the browser, they have to click embedded or "active" content before they 
+interact with it. Check out the <A 
+href="http://msdn.microsoft.com/library/default.asp?url=/workshop/author/dhtml/overview/activating_activex.asp" 
+target=_blank>resources</A> on the Microsoft Developer Network (MSDN), where you 
+can get more information. </P>
+<P>Some sites will not be affected by the change. The updated browser prompts 
+users to click before displaying active content coded using 
+<CODE>&lt;object&gt;</CODE> , <CODE>&lt;embed&gt;</CODE> , or 
+<CODE>&lt;applet&gt;</CODE> tags <EM>that are inline in an HTML file</EM>. 
+However, HTML pages that use tags generated by external script files (like 
+JavaScript)—such as sites that use complex Flash detection scripts—should 
+continue to work normally with no change.</P>
+<P class=note><STRONG>Note:</STRONG> Even though many browsers still support all 
+three tags, the <CODE>&lt;embed&gt;</CODE> and <CODE>&lt;applet&gt;</CODE> tags 
+are deprecated in favor of the <CODE>&lt;object&gt;</CODE> tag.</P>
+<P>Many of you will want to fix your sites to work around the mandatory browser 
+changes. The good news is that you can apply one of several workarounds to your 
+site right now.</P>
+<H3>Requirements</H3>
+<H4>Sample files:</H4>
+<UL class="link-list compact">
+  <LI class="icon download"><A 
+  href="http://download.macromedia.com/pub/developer/activecontent_samples.zip">Download 
+  the JavaScript files <SPAN class=stamp-fileinfo>(ZIP, 124K)</SPAN></A> 
+</LI></UL>
+<P class=note><STRONG>Note:</STRONG> This sample archive contains six files:</P>
+<UL class=note>
+  <LI><STRONG>AC_RunActiveContent.js:</STRONG> This is the file you use for the 
+  workaround for Flash and Shockwave content described in <A 
+  href="http://www.adobe.com/devnet/activecontent/articles/devletter.html#multipleoccurrences">External 
+  JavaScript Solution 2: For Multiple Occurrences of Embedded Content</A>. 
+  <LI><STRONG>AC_ActiveX.js:</STRONG> Use this file for the fix described in the 
+  section, <A 
+  href="http://www.adobe.com/devnet/activecontent/articles/devletter.html#otheractivecontent">Solution 
+  for Other Active Content Types</A>. 
+  <LI><STRONG>SampleActiveContent.html:</STRONG> This file provides an example 
+  of the code you would use in your HTML page when using the 
+  AC_RunActiveContent.js and AC_ActiveX.js files. 
+  <LI><STRONG>button1.fla:</STRONG> This file is the source file for the SWF. 
+  <LI><STRONG>button1.swf:</STRONG> This file is the SWF that is embedded in the 
+  page. 
+  <LI><STRONG>readme.txt:</STRONG> This is the Readme file that contains a 
+  description of the ZIP contents. </LI></UL>
+<H3>Getting started now: Fix for displaying active content</H3>
+<P>The HTML code affected by the change is anything that uses the 
+<CODE>&lt;object&gt;</CODE> tag directly in the page. You will need to replace 
+this tag with an external JavaScript file that writes the 
+<CODE>&lt;object&gt;</CODE> tag from outside the actual HTML page.</P>
+<H4>Code you need to replace</H4>
+<P>Here's an example of code (a simple <CODE>&lt;object&gt;</CODE> tag) that 
+will not function as it did previously in the updated browser: </P>
+<DIV class=preWrapper><PRE>&lt;object classid="clsid:D27CDB6E..." ... height="200"&gt;
+    &lt;param name="movie" value="foo.swf"&gt;
+    &lt;param name="quality" value="high" /&gt;
+    &lt;embed src="foo.swf" ... height="200"&gt;&lt;/embed&gt;
+&lt;/object&gt;</PRE></DIV>
+<P>If you replace this tag with a script that calls code outside of your HTML 
+page, as described in the two following methods, it will continue to work in the 
+updated version of Internet Explorer. </P>
+<P>These examples of "<A 
+href="http://www.adobe.com/devnet/activecontent/articles/before_after.html">before 
+and after</A>" code, provided by the Adobe development team, will help you 
+update the HTML pages that host active content on your website.</P>
+<P>We've tested this JavaScript fix; it works for common, current browsers. 
+Check out the <A 
+href="http://www.adobe.com/devnet/activecontent/articles/devletter/test_matrix.html">External 
+JavaScript Solution Quality Assurance Test Matrix</A> to see if it is a good 
+solution for your site visitors. </P>
+<H4>External JavaScript solution 1: For single (or few) occurrences of embedded 
+content</H4>
+<P>If your site has only one piece of embedded content, or only a few pieces, 
+you may want to use the following simple solution. To implement this, you need 
+to create a unique external JavaScript (JS) file for each page on your site that 
+contains embedded content. </P>
+<P class=note><STRONG>Note:</STRONG> If you have more than one piece of embedded 
+content on a page, create unique functions (see Step 1) within the external JS 
+file to <CODE>document.write</CODE> tags for each separate content piece. Also, 
+please note that this solution is not included in the sample files; simply 
+follow the instructions below to create the new code from code that exists in 
+your current HTML page. </P>
+<P>The steps to do this are as follows:</P>
+<OL>
+  <LI>
+  <P>Create and place the external JS file on your site. In this example, call 
+  it <STRONG>foo.js</STRONG>. This script needs to <CODE>document.write</CODE> 
+  the full <CODE>&lt;object&gt;</CODE>/<CODE>&lt;embed&gt;</CODE> tag that was 
+  previously in your HTML file:</P>
+  <DIV class=preWrapper><PRE>function RunFoo()
+{
+   document.write('&lt;object classid="clsid:D27CDB6E..." ... height="200"&gt;\n');
+   document.write('&lt;param name="movie" value="foo.swf" /&gt;\n');
+   document.write('&lt;param name="quality" value="high" /&gt;\n');
+   document.write('&lt;embed src="foo.swf" ... height="200"&gt;&lt;/embed&gt;\n');
+   document.write('&lt;/object&gt;\n');
+}</PRE></DIV>
+  <LI>
+  <P>Add a JavaScript <CODE>include</CODE> statement that points to the 
+  JavaScript file from Step 1 to the <CODE>&lt;head&gt;</CODE> section of the 
+  web page that embeds the content:</P>
+  <DIV class=preWrapper><PRE>&lt;script src="<EM>[path]</EM>/foo.js" type="text/javascript"&gt;&lt;/script&gt;
+
+</PRE></DIV>
+  <LI>
+  <P>Replace each <CODE>&lt;object&gt;</CODE>, <CODE>&lt;embed&gt;</CODE>, or 
+  <CODE>&lt;applet&gt;</CODE> tag with a call to the appropriate external files 
+  as follows:</P>
+  <DIV class=preWrapper><PRE>&lt;script type="text/javascript"&gt;RunFoo();&lt;/script&gt;
+
+</PRE></DIV></LI></OL>
+<H4><A id=multipleoccurrences name=multipleoccurrences></A>External JavaScript 
+solution 2: For multiple occurrences of embedded content</H4>
+<P>If your site has a lot of embedded active content, or if you embed it in 
+multiple ways, this solution gives you some big advantages. You can use a single 
+external JS file for all of your embedded Flash and Shockwave content, instead 
+of creating one for each affected file (as in Solution 1). The JS file contains 
+functions that embed your active content based on parameters it receives from 
+the main page.</P>
+<P>There are three steps you need to follow to implement this solution:</P>
+<OL>
+  <LI>
+  <P>Copy the external JS file that contains the workaround functions to a 
+  shared location on your website. Call it 
+  <STRONG>AC_RunActiveContent.js</STRONG> for this example, or other names that 
+  you choose.</P>
+  <UL class="link-list compact">
+    <LI class="icon download"><A 
+    href="http://download.macromedia.com/pub/developer/activecontent_samples.zip">Download 
+    the JavaScript files <SPAN class=stamp-fileinfo>(ZIP, 124K)</SPAN></A> 
+  </LI></UL>
+  <P>The code in the AC_RunActiveContent.js file uses arguments that you pass to 
+  it (see Step 3) to construct a complete tag string that it writes to your 
+  document.</P>
+  <LI>
+  <P>Add a JavaScript <CODE>include</CODE> statement that points to the shared 
+  JavaScript files from Step 1 to the <CODE>&lt;head&gt;</CODE> section of each 
+  web page on your site that includes an 
+  <CODE>&lt;object&gt;</CODE>/<CODE>&lt;embed&gt;</CODE> tag:</P>
+  <DIV class=preWrapper><PRE>&lt;script src="<EM>[path]</EM>/AC_RunActiveContent.js" type="text/javascript"&gt;&lt;/script&gt;</PRE></DIV>
+  <LI>
+  <P>Replace each instance of <CODE>&lt;object&gt;</CODE> and 
+  <CODE>&lt;embed&gt;</CODE> tags in your pages with the appropriate function 
+  calls. Here are two function calls for you to choose from: one for Flash 
+  content and one for Shockwave content.</P>
+  <H4>Flash content</H4>
+  <DIV class=preWrapper><PRE>AC_FL_RunContent(
+   "att1Name","att1Value", 
+   "att2Name","att2Value", 
+   ... 
+   "attnName","attnValue" 
+);</PRE></DIV>
+  <H4>Shockwave content</H4>
+  <DIV class=preWrapper><PRE>AC_SW_RunContent( 
+   "att1Name","att1Value", 
+   "att2Name","att2Value", 
+   ... 
+   "attnName","attnValue" 
+);</PRE></DIV>
+  <P><SPAN class=note><STRONG>Note:</STRONG> These functions need JavaScript 
+  enabled to function. To let users with JavaScript disabled in their browsers 
+  view active content, follow each function with traditional 
+  <CODE>&lt;object&gt;</CODE>/<CODE>&lt;embed&gt;</CODE> tags within 
+  <CODE>&lt;noscript&gt;</CODE> tags, as described in the section, <A 
+  href="http://www.adobe.com/devnet/activecontent/articles/devletter.html#nojavascript">What 
+  About Users Who Have JavaScript Turned Off?</A></SPAN></P></LI></OL>
+<P>As you replace the <CODE>&lt;object&gt;</CODE> and <CODE>&lt;embed&gt;</CODE> 
+tags with these new function calls, edit the argument pairs (represented by 
+"att1Name", "att1Value") to include appropriate attributes and their values from 
+your original tags, such as <CODE>movie</CODE>, <CODE>id</CODE>, 
+<CODE>bgcolor</CODE>, etc. You can see an example of this code for a specific 
+Flash file in the sample file SampleActiveContent.html, which is included in the 
+sample file download. </P>
+<P>When you edit the function call to pass the movie attribute, do not include 
+the file extension with the movie name. Pass the movie name as follows:</P>
+<DIV class=preWrapper><PRE>AC_FL_RunContent(
+   "movie","foo", 
+   ... 
+   "attnName","attnValue" 
+);</PRE></DIV>
+<P>The external JavaScript code will add the appropriate extension.</P>
+<P>If you are passing parameters to your Flash file, you might have an original 
+movie attribute that looks like this:</P>
+<DIV class=preWrapper><PRE>foo.swf?username=Bob&amp;color=red</PRE></DIV>
+<P>To pass the name and color attributes successfully, include them as arguments 
+in your function as follows, remembering to omit the file extension:</P>
+<DIV class=preWrapper><PRE>"foo?username=Bob&amp;color=red"</PRE></DIV>
+<P>Be sure to list your arguments in name/value pairs. You need to pass an even 
+number of items to the AC_RunActiveContent.js code; otherwise it will not work. 
+It also automatically inserts other required settings such as 
+<CODE>classid</CODE> and <CODE>mimeType</CODE> as result of the player-specific 
+function call. If you need to update the value of one of these required 
+settings, edit these values within the <CODE>AC_FL_RunContent()</CODE> or the 
+<CODE>AC_SW_RunContent()</CODE> functions, which you can find within the 
+AC_RunActiveContent.js code. Within your HTML page, pass only the arguments for 
+the optional parameters.</P>
+<P>Here's an example of how you would replace a standard inline 
+<CODE>&lt;object&gt;</CODE> and <CODE>&lt;embed&gt;</CODE> tag that plays a 
+Flash file using this method. If you needed to replace the following code:</P>
+<DIV class=preWrapper><PRE>&lt;object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="550" height="400" align="middle"&gt;
+   &lt;param name="allowScriptAccess" value="sameDomain" /&gt; 
+   &lt;param name="movie" value="foo.swf" /&gt; 
+   &lt;param name="quality" value="high" /&gt;
+   &lt;param name="bgcolor" value="#ffffff" /&gt;
+&lt;embed src="foo.swf" quality="high" bgcolor="#ffffff" width="550" height="400" name="foo" align="middle" allowScriptAccess="sameDomain" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" /&gt;
+&lt;/object&gt;</PRE></DIV>
+<P>you would insert the following function call in its place:</P>
+<DIV class=preWrapper><PRE>&lt;script type="text/javascript" &gt;
+AC_FL_RunContent('codebase','http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0','width','550','height','400','align','middle','src','foo','quality','high','bgcolor','#ffffff','name','foo','allowscriptaccess','sameDomain','pluginspage','http://www.macromedia.com/go/getflashplayer','movie','foo' );
+&lt;/script&gt; 
+
+</PRE></DIV><A id=nojavascript name=nojavascript></A>
+<H3>What about users who have JavaScript turned off?</H3>
+<P>Both of the above methods rely on JavaScript. A small percentage of visitors 
+to your site may have disabled JavaScript in their browsers. The techniques 
+suggested above will not work for these few users—they won't see your embedded 
+content at all. One thing to keep in mind is that many or most Internet Explorer 
+users who have disabled JavaScript may have also disabled ActiveX support. 
+However, users who have disabled ActiveX have not been seeing Flash and 
+Shockwave content displayed in the browsers. The migration to JavaScript 
+techniques for embedded content doesn't alter or affect their experience. You 
+need to be concerned only about users who have disabled JavaScript but have 
+ActiveX enabled.</P>
+<P>To provide for the small percentage of users who have disabled JavaScript but 
+have enabled ActiveX, insert the <CODE>&lt;object&gt;</CODE> and 
+<CODE>&lt;embed&gt;</CODE> tags directly into the HTML, but put them within a 
+<CODE>&lt;noscript&gt;</CODE> tag. The <CODE>&lt;noscript&gt;</CODE> tag is a 
+standard tag that provides fail-safe alternative code for users who have 
+disabled JavaScript. Here's an example of a standard embedded SWF file nested in 
+a <CODE>&lt;noscript&gt;</CODE> tag:</P>
+<DIV class=preWrapper><PRE>&lt;noscript&gt;
+&lt;object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,0,0" width="550" height="400" id="foo" align="middle"&gt;
+   &lt;param name="allowScriptAccess" value="sameDomain" /&gt;
+   &lt;param name="movie" value="foo.swf" /&gt;
+   &lt;param name="quality" value="high" /&gt;
+   &lt;param name="bgcolor" value="#ffffff" /&gt;
+&lt;embed src="foo.swf" quality="high" bgcolor="#ffffff" width="550" height="400" name="foo" align="middle" allowScriptAccess="sameDomain" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" /&gt;
+&lt;/object&gt;
+&lt;/noscript&gt;</PRE></DIV>
+<P>Users who have JavaScript disabled will need to click to activate content in 
+the updated browser when they visit a page with code similar to the above. After 
+that, they can interact with the content as they did before. </P><A 
+id=otheractivecontent name=otheractivecontent></A>
+<H3>Solution for other active content types</H3>
+<P>In the sample files accompanying this article, we are also including a 
+JavaScript file called AC_ActiveX.js. You don't need this script to display 
+Flash or Shockwave content using the methods described above. However, 
+developers who are working with other types of active content in web pages can 
+use this script to display other types of content without requiring the user to 
+click to activate it. Think of it as a kind of generic script that works with a 
+broad range of content. You can use this script in much the same way you would 
+use AC_RunActiveContent.js, as described in the steps above. </P>
+<P>To implement this script, first include the external files in the 
+<CODE>&lt;head&gt;</CODE> section of your HTML page using the following 
+code:</P>
+<DIV class=preWrapper><PRE>&lt;script src="<EM>[path]</EM>/AC_ActiveX.js" type="text/javascript"&gt;&lt;/script&gt; 
+&lt;script src="<EM>[path]</EM>/AC_RunActiveContent.js" type="text/javascript"&gt;&lt;/script&gt;</PRE></DIV>
+<P>Then, just as in the Flash/Shockwave method, replace the 
+<CODE>&lt;object&gt;</CODE> and <CODE>&lt;embed&gt;</CODE> code, modifying the 
+attribute and value pairs to fit your content: </P>
+<DIV class=preWrapper><PRE>&lt;script type="text/javascript"&gt;
+   AC_AX_RunContent( 'classid','clsid:CFCDAA03-8BE4-11cf-B84B-0020AFBBCCFB','width','150','height','100','src','fakefile.foo' );
+&lt;/script&gt;</PRE></DIV>
+<P class=note><STRONG>Note:</STRONG> You can also find sample code similar to 
+this in SampleActiveContent.html, which is included in the sample file download. 
+</P>
+<H3>Additional resources</H3>
+<P>Check out the resources on the Microsoft Developer Network (MSDN) at <A 
+href="http://msdn.microsoft.com/ieupdate/" 
+target=_blank>msdn.microsoft.com/ieupdate/</A> where you can get more 
+information. </P>
+<P>The article <A 
+href="http://www.adobe.com/devnet/flash/articles/swfobject.html">JavaScript 
+Flash Player Detection and Embedding with SWFObject</A> provides another method 
+of embedding Flash content from external JavaScript files.</P>
+<H3>Stay tuned: Active Content Developer Center</H3>
+<P>Adobe is confident that you will be able to implement the fix on your site 
+successfully using one of these methods. But we want to be sure, so we will 
+continue to give you all the information we can as it becomes available. Please 
+stay tuned to this site for any updates and new methods of displaying active 
+content. </P><!-- InstanceEndEditable -->
+<H3 id=bio>About the author</H3>
+<DIV class=bio>
+<ADDRESS>This content was authored by Adobe Systems, 
+Inc.</ADDRESS></DIV></DIV><BR 
+class=clear-both></DIV></DIV></DIV></DIV></DIV></DIV></DIV></DIV></DIV><!--googleoff: index--><!-- global footer $Revision: 1.33 $ -->
+<DIV id=globalfooter>
+<UL class="pipe menu compact">
+  <LI><A href="http://www.adobe.com/go/gftray_foot_aboutadobe">Company</A> </LI>
+  <LI><A href="http://www.adobe.com/go/gftray_foot_privacy_security">Online 
+  Privacy Policy</A> </LI>
+  <LI><A href="http://www.adobe.com/go/gftray_foot_terms">Terms of Use</A> </LI>
+  <LI><A href="http://www.adobe.com/go/gftray_foot_contact_adobe">Contact Us</A> 
+  </LI>
+  <LI><A 
+  href="http://www.adobe.com/go/gftray_foot_accessibility">Accessibility</A> 
+  </LI>
+  <LI><A href="http://www.adobe.com/go/gftray_foot_report_piracy">Report 
+  Piracy</A> </LI>
+  <LI><A 
+  href="http://www.adobe.com/go/gftray_foot_permissions_trademarks">Permissions 
+  &amp; Trademarks</A> </LI>
+  <LI><A 
+  href="http://www.adobe.com/go/gftray_foot_product_license_agreements">Product 
+  License Agreements</A> </LI>
+  <LI>
+  <SCRIPT language=javascript 
+  src="Adobe%20-%20Developer%20Center%20%20Preparing%20your%20website%20to%20handle%20the%20Microsoft%20changes%20to%20Internet%20Explorer_files/oo_engine.js" 
+  type=text/javascript charset=windows-1252></SCRIPT>
+
+  <SCRIPT language=javascript type=text/javascript charset=windows-1252>
+			O_GoT('Send Feedback');
+		</SCRIPT>
+  <NOSCRIPT><A href="http://www.adobe.com/go/gftray_foot_feedback">Send 
+  Feedback</A></NOSCRIPT> </LI></UL>
+<DIV class="pullout-right right-125">
+<P class=pullout-item><A href="http://www.adobe.com/go/gftray_foot_truste" 
+target=_blank><IMG id=trustelogo height=41 
+alt="Reviewed by TRUSTe: site privacy statement" 
+src="Adobe%20-%20Developer%20Center%20%20Preparing%20your%20website%20to%20handle%20the%20Microsoft%20changes%20to%20Internet%20Explorer_files/eufinalmark.gif" 
+width=116></A></P>
+<P id=copyright>Copyright © 2007 Adobe Systems Incorporated. <A 
+href="http://www.adobe.com/go/gftray_all_rights_reserved">All rights 
+reserved</A>.</P>
+<P id=terms>Use of this website signifies your agreement to the <A 
+href="http://www.adobe.com/go/gftray_foot_terms">Terms of Use</A> and <A 
+href="http://www.adobe.com/go/gftray_foot_privacy_security">Online Privacy 
+Policy (updated 03-30-2007)</A>.</P>
+<P id=searchengine>Search powered by<A href="http://www.google.com/" 
+target=new><IMG class=googlelogo height=18 alt="Powered by Google" 
+src="Adobe%20-%20Developer%20Center%20%20Preparing%20your%20website%20to%20handle%20the%20Microsoft%20changes%20to%20Internet%20Explorer_files/logo_google.gif" 
+width=43></A></P></DIV></DIV><!--googleon: index-->
+<SCRIPT 
+src="Adobe%20-%20Developer%20Center%20%20Preparing%20your%20website%20to%20handle%20the%20Microsoft%20changes%20to%20Internet%20Explorer_files/beforeonload.js" 
+type=text/javascript></SCRIPT>
+<!-- InstanceBeginEditable name="analytics" -->
+<DIV style="DISPLAY: none"><!-- SiteCatalyst code version: G.6.
+Copyright 2002 Omniture, Inc. More info available at
+http://www.omniture.com -->
+<SCRIPT language=JavaScript 
+type=text/javascript><!--
+var s_code=' '//--></SCRIPT>
+
+<SCRIPT language=JavaScript 
+src="Adobe%20-%20Developer%20Center%20%20Preparing%20your%20website%20to%20handle%20the%20Microsoft%20changes%20to%20Internet%20Explorer_files/omniture_s_code.js" 
+type=text/javascript></SCRIPT>
+
+<SCRIPT language=JavaScript type=text/javascript><!--
+var s_accountName;
+var s_docHost = window.location.hostname.toLowerCase();
+var s_docURL = window.location.pathname.toLowerCase();
+if ((s_docHost.indexOf(".dev.adobe.") != -1) || (s_docHost.indexOf("stage.") != -1) || (s_docHost.indexOf("staging.") != -1) || (s_docHost.indexOf(".sea.adobe") != -1)) {  s_accountName="mxadobetest";
+}
+else {
+  s_accountName="mxmacromedia";
+}
+if (s_docURL.indexOf("/devnet/") != -1) {
+  s_channel="DevNet";
+}
+else if (s_docURL.indexOf("/designcenter/") != -1) {
+  if (s_accountName == "mxmacromedia") s_accountName="mxmacromedia,mxadobedesigncenter";
+  s_channel="Adobe Design Center";
+  s_hier1="ADC";
+  if (s_docURL.indexOf("/articles/") != -1) {
+    mymetatags = document.getElementsByTagName("meta");
+	s_hier1=s_hier1+",Tutorials";
+	var adc_Title=s_docURL;
+	var adc_Products="";
+	var adc_Topics="";
+	var adc_Type="";
+	for (i=0;i < mymetatags.length;i++)  {
+		if (mymetatags[i].getAttribute("name") == "product") {
+		   if (mymetatags[i].getAttribute("content").indexOf("[product") == -1)
+		     adc_Products=(adc_Products=="")?';'+mymetatags[i].getAttribute("content"):adc_Products+',;'+mymetatags[i].getAttribute("content"); 
+		}
+		else if (mymetatags[i].getAttribute("name") == "topic") {
+			adc_Topics=(adc_Topics=="")?mymetatags[i].getAttribute("content"):adc_Topics+','+mymetatags[i].getAttribute("content");
+		}
+		else if (mymetatags[i].getAttribute("name") == "columntype") {
+			adc_Type=mymetatags[i].getAttribute("content");
+		}
+	}
+	var s_eVar22=adc_Title;
+	if (adc_Type != "") var s_eVar23=adc_Type;
+	if (adc_Topics != "") var s_eVar24=adc_Topics;
+	if (adc_Products != "") {
+	  var s_products=adc_Products;
+	  var s_events="event12";
+	}
+   }
+   else if (s_docURL.indexOf("/designcenter/gallery/") != -1) {
+     s_hier1=s_hier1+",Gallery";
+   }
+   else if (s_docURL.indexOf("/designcenter/thinktank/") != -1) {
+     s_hier1=s_hier1+",Think Tank";
+   }
+   else if (s_docURL.indexOf("/designcenter/dialogbox/") != -1) {
+     s_hier1=s_hier1+",Dialog Box";
+   }      
+}
+var s_wd=window,s_tm=new Date;if(s_code!=' '){s_code=s_dc(
+s_accountName);if(s_code)document.write(s_code)}else
+document.write('<im'+'g src="http://192.168.112.2O7.net/b/ss/'+s_accountName+'/1/F.3-fb/s'+s_tm.getTime()+'?[AQB]'
++'&pageName='+escape(s_wd.s_pageName?s_wd.s_pageName:(s_wd.pageName?s_wd.pageName:''))
++'&server='+escape(s_wd.s_server?s_wd.s_server:(s_wd.server?s_wd.server:''))
++'&ch='+escape(s_wd.s_channel?s_wd.s_channel:(s_wd.channel?s_wd.channel:''))
++'&[AQE]" height="1" width="1" border="0" alt="" />')
+function sendAnalyticsEvent(str){var ns=s_accountName;if(str!=null)ns+=","+str;void(s_gs(ns));}
+function sendLinkEvent(accnt,lnkname,type){
+accnt=s_accountName;s_linkType=type;s_lnk=true;s_linkName=lnkname;void(s_gs(accnt));}
+//--></SCRIPT>
+<NOSCRIPT><IMG height=1 alt="" 
+src="Adobe%20-%20Developer%20Center%20%20Preparing%20your%20website%20to%20handle%20the%20Microsoft%20changes%20to%20Internet%20Explorer_files/F.gif" 
+width=1 border=0></NOSCRIPT><!--/DO NOT REMOVE/--> <!-- End SiteCatalyst code version: G.6. --></DIV><NOSCRIPT><!--[if lt IE 7]><link href="/css/master_import/noscript_ie6.css" type="text/css" rel="stylesheet" /><![endif]--><!--[if IE 7]><LINK 
+href="Adobe%20-%20Developer%20Center%20%20Preparing%20your%20website%20to%20handle%20the%20Microsoft%20changes%20to%20Internet%20Explorer_files/noscript_ie7.css" 
+type=text/css 
+rel=stylesheet><![endif]--></NOSCRIPT><!-- InstanceEndEditable --><IMG 
+id=flash_pixel height=1 alt="" 
+src="Adobe%20-%20Developer%20Center%20%20Preparing%20your%20website%20to%20handle%20the%20Microsoft%20changes%20to%20Internet%20Explorer_files/pixel.gif" 
+width=1 name=flash_pixel> <!-- InstanceEnd --></BODY></HTML>

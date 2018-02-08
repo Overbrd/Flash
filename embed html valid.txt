@@ -1,0 +1,4 @@
+<!-- URL's used in the movie-->
+<!-- text used in the movie-->
+<object type="application/x-shockwave-flash" data="flash/PalmBeachCountyRealEstate.swf" width="170" height="170">
+<param name="movie" value="flash/PalmBeachCountyRealEstate.swf"></object>

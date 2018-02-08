@@ -1,0 +1,4 @@
+start = getTimer();
+while (start+1500>now) {
+    now = getTimer();
+}

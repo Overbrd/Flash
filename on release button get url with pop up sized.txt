@@ -1,0 +1,3 @@
+on (release) {
+getURL ("javascript:NewWindow=window.open('http://www.realping.com/accts/status.cfm?id=21783&tz=0','newWin','width=150,height=285,toolbar=No,location=No,scrollbars=Yes,status=No,resizable=Yes,fullscreen=No');  NewWindow.focus();      void(0);");
+}

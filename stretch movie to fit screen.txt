@@ -1,0 +1,16 @@
+<HTML>
+<HEAD>
+<meta http-equiv=Content-Type content="text/html;  charset=ISO-8859-1">
+<TITLE>sacredheart</TITLE>
+</HEAD>
+<BODY bgcolor="#000000" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<!-- URL's used in the movie-->
+<A HREF=http://www.simkiss.net/sacredheart/sacredheart.swf></A> <!-- text used in the movie-->
+<!--<P ALIGN="LEFT"><FONT FACE="Papyrus" SIZE="45" COLOR="#FFFFFF">www.simkiss.net/sacredheart</FONT></P>--><OBJECT classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
+ codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0"
+ WIDTH="100%" HEIGHT="100%" id="sacredheart" ALIGN="top">
+ <PARAM NAME=movie VALUE="sacredheart.swf"> <PARAM NAME=quality VALUE=high> <PARAM NAME=salign VALUE=T> <PARAM NAME=bgcolor VALUE=#000000> <EMBED src="sacredheart.swf" quality=high salign=T bgcolor=#000000  WIDTH="100%" HEIGHT="100%" NAME="sacredheart" ALIGN="top"
+ TYPE="application/x-shockwave-flash" PLUGINSPAGE="http://www.macromedia.com/go/getflashplayer"></EMBED>
+</OBJECT>
+</BODY>
+</HTML>
